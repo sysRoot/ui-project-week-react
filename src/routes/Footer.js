@@ -1,22 +1,23 @@
 import React from "react";
+import '../sass/index.scss'
 
-const Footer = () => {
+const StickyFooter = () => {
   return (
-    <div>
+    <footer>
       <div>
-        <section class="footer">
+        <section className="footer">
           <h4>
             Interested in starting a project?
             <br />
             Let’s talk:
           </h4>
 
-          <input type="email" name="email" value="Enter email" />
+          <input type="email" name="email" defaultValue="Enter email" />
 
           <p>We'll never share your email with anyone else.</p>
         </section>
 
-        <section class="footer">
+        <section className="footer">
           <h4>New York</h4>
           <address>
             123 Lane
@@ -29,7 +30,7 @@ const Footer = () => {
           </address>
         </section>
 
-        <section class="footer">
+        <section className="footer">
           <h4>Florida</h4>
           <address>
             Ocean Drive
@@ -42,7 +43,7 @@ const Footer = () => {
           </address>
         </section>
 
-        <section class="footer">
+        <section className="footer">
           <h4>California</h4>
           <address>
             Mountain Street
@@ -55,10 +56,9 @@ const Footer = () => {
           </address>
         </section>
       </div>
-
       <small>Copyright © 2018 Smith and Jones</small>
-    </div>
+    </footer>
   );
 };
 
-export default Footer;
+export default StickyFooter;

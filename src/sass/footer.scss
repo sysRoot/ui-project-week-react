@@ -5,7 +5,7 @@ footer {
   flex-direction: column;
   align-items: center;
   height: 250px;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   @media ($mobile) {
@@ -34,7 +34,7 @@ footer {
     }
     .footer {
       margin-top: 50px;
-      margin-bottom: 55px;
+      margin-bottom: 40px;
       color: $footerFColor;
       font-size: $footerFSize;
       line-height: $footerLHeight;
